@@ -30,7 +30,7 @@ Este circuito lógico compara dois números binários de 6 bits (A e B) e determ
 3. Somador de 6 bits
 ---
 
-Um circuito aritmético projetado para executar a adição de dois números binários de 6 bits. A arquitetura utilizada é a de Ripple-Carry Adder.
+Um circuito aritmético projetado para executar a adição de dois números binários de 6 bits.
 
 * Função: Calcular a soma S = A + B.
 * Operação: O circuito é composto por seis somadores completos de 1 bit interligados em cascata. O "vai-um" (carry-out) de cada estágio é propagado para o estágio seguinte (carry-in), da direita para a esquerda.
@@ -43,3 +43,13 @@ A ULA é um componente digital versátil que forma a base de um processador. Ela
 
 * Função: Realizar um conjunto de operações pré-definidas (como Adição, Subtração, AND, OR) sobre duas entradas de 6 bits.
 * Operação: Um sinal de controle de operação seleciona a função a ser executada. A lógica interna da ULA configura o fluxo de dados através de somadores e portas lógicas para produzir o resultado da operação escolhida.
+
+---
+5. Multiplexador (2-para-1)
+---
+
+O Multiplexador (MUX) faz a operação inversa do Demultiplexador. Ele funciona como um seletor que escolhe uma de várias linhas de entrada e a conecta a uma única linha de saída.
+
+* Função: Seleciona um de vários sinais de entrada e o direciona para uma única saída.
+* Operação: Um pino seletor determina qual das entradas (por exemplo, Entrada 0 ou Entrada 1) será conectada à linha de saída.
+
